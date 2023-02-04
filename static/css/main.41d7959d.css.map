@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.41d7959d.css","mappings":"AAAA,eACI,iBACJ,CACA,gCACE,kBACF","sources":["App.css"],"sourcesContent":[".delete-button {\r\n    visibility: hidden;\r\n}\r\n.table-row:hover .delete-button {\r\n  visibility: visible;\r\n}"],"names":[],"sourceRoot":""}
