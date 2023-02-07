@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react"
-import { useParams, useNavigate } from "react-router-dom"
-import { AiFillHome } from "react-icons/ai"
+import { useParams } from "react-router-dom"
 import finnhub from "../apis/finnhub"
 import { StockShart } from "../components/StockShart"
 import { StockData } from "../components/StockData"
@@ -17,11 +16,6 @@ const fromatData = (data) => {
 export const StockDetail = () => {
     const [chartData, setChartData] = useState()
     const {symbol} = useParams()
-    const navigate = useNavigate()
-
-    const home = () => {
-        navigate('/')
-    }
 
     useEffect(() => {
         let isMounted = true
